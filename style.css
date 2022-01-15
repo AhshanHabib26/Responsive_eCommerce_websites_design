@@ -320,12 +320,12 @@ a{
    padding: 25px 0;
 }
 .footer_text_area h1{
-    font-size: 28px;
+    font-size: 26px;
     color: #fff;
     margin: 5px;
 }
 .footer_text_area p{
-    font-size: 16px;
+    font-size: 15px;
     color: #fff;
     text-align: center;
     margin: 5px;
@@ -372,3 +372,39 @@ a{
 }
 
 /* Footer Section Section Style End Here */
+
+/************************************
+**** Responsive Code Start Here *****
+*************************************/
+
+/* Responsive For Mobile Device  */
+
+@media screen  and (max-width: 669px){
+    .top_header_area { flex-direction: row-reverse;}
+    .menu_area .res_link { display: none;}
+    .logo_area h1 { margin-right: 15px;}
+    .menu_area .res_icon{ display: inline-block;}
+    .menu_area ul { padding-left: 0;}
+    .top_banner_area { flex-direction: column-reverse;}
+    .banner_img_info h1 {font-size: 40px;}
+    .products_items_area, .featured_products { grid-template-columns: repeat(1, 1fr);}
+    .featured_img { margin-bottom: 10px;}
+    .featured_info h1 { font-size: 32px;}
+    .newsletter_sec { flex-direction: column;}
+    .newsletter_info p { font-size: 20px;}
+}
+
+/* Responsive For Tablet Device  */
+
+@media only screen and (min-width: 670px) and (max-width: 960px) {
+    .menu_area .res_icon { display: none;}
+    .menu_area ul { margin-right: 20px;}
+    .menu_area .res_link{ display: inline-block;}
+    .top_banner_area { flex-direction: column-reverse;}
+    .products_items_area { grid-template-columns: repeat(2, 1fr);}
+    .featured_products { grid-template-columns: repeat(1, 1fr);}
+    .featured_img{ display: flex; align-items: center; justify-content: center;}
+    .banner_img_info, .featured_info { display: flex; flex-direction: column;  align-content: center; align-items: center; margin-top: 20px;}
+    .banner_img_info h1, .banner_img_info p, .featured_info p { text-align: center;}
+    .newsletter_sec { flex-direction: column;}
+}
