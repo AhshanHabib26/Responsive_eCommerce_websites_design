@@ -381,7 +381,6 @@ a{
 @media screen  and (max-width: 669px){
     .top_header_area { flex-direction: row-reverse;}
     .menu_area .res_link { display: none;}
-    .logo_area h1 { margin-right: 15px;}
     .menu_area .res_icon{ display: inline-block;}
     .menu_area ul { padding-left: 0;}
     .top_banner_area { flex-direction: column-reverse;}
@@ -397,7 +396,6 @@ a{
 
 @media only screen and (min-width: 670px) and (max-width: 960px) {
     .menu_area .res_icon { display: none;}
-    .menu_area ul { margin-right: 20px;}
     .menu_area .res_link{ display: inline-block;}
     .top_banner_area { flex-direction: column-reverse;}
     .products_items_area { grid-template-columns: repeat(2, 1fr);}
