@@ -115,3 +115,38 @@ a{
    
    
    /* Banner Section Style End Here */
+
+   /****************************************
+***Brand Logo Section Style Start Here***
+*****************************************/
+
+.brand_logo{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    cursor: pointer;
+}
+.brand_logo:after{
+    position: absolute;
+    content: "";
+    border: 1px solid #f1f0f0;
+    top: 0;
+    width: 850px; 
+}
+.brand_logo:before{
+    position: absolute;
+    content: "";
+    border: 1px solid #f1f0f0;
+    bottom: 0;
+    width: 850px; 
+}
+.brand_logo li{
+    margin: 20px;
+}
+
+
+/* Brand Logo Section Style End Here */
