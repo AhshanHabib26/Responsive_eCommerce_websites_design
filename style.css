@@ -9,7 +9,7 @@ body{
 .container{
     margin: 0 auto;
     width: 96%;
-    max-width: 1120px;
+    max-width: 1020px;
 }
 li{ 
     list-style: none;
@@ -17,6 +17,7 @@ li{
 a{
     text-decoration: none;
 }
+
 .brand_logo_section,
 .product_review_section,
 .featured_products,
