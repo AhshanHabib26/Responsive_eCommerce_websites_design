@@ -306,3 +306,69 @@ a{
 }
 
 /* NewsLetter Section Style End Here */
+
+/********************************************
+***Footer Section Section Style Start Here***
+*********************************************/
+
+.footer_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   justify-items: center;
+   background-color: #05082b;
+   padding: 25px 0;
+}
+.footer_text_area h1{
+    font-size: 28px;
+    color: #fff;
+    margin: 5px;
+}
+.footer_text_area p{
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    margin: 5px;
+}
+.footer_text_area p a{
+    color: #E6425E;
+}
+.footer_scl_area li{
+    display: inline-block;
+    margin: 5px;
+}
+.footer_scl_area li a{
+    font-size: 18px;
+    color: #fff;
+    
+}
+.footer_scl_area li  i{
+    display: block;
+    width: 35px;
+    height: 25px;
+    border: 1px solid #c4c3c3;
+    outline: none;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.footer_scl_area li i.fa-facebook-f:hover{
+    background: #3A5693;
+    color: #ffffff;
+}
+.footer_scl_area li i.fa-twitter:hover{
+    background: #00A7E6;
+    color: #ffffff;
+}
+.footer_scl_area li i.fa-linkedin-in:hover{
+    background: #0270AD;
+    color: #ffffff;
+}
+.footer_scl_area li i.fa-behance:hover{
+    background-color: #105BF1;
+    color: #fff;
+}
+
+/* Footer Section Section Style End Here */
