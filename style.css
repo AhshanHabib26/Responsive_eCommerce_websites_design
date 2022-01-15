@@ -68,3 +68,50 @@ a{
 }
 
 /* Header Section Style End Here */
+
+/************************************
+***Banner Section Style Start Here***
+*************************************/
+.top_banner_area{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    margin-top: 50px;
+   
+   }
+   .banner_img_info h1{
+       font-size: 48px;
+       color: #3A3A3A;
+       font-weight: 700;
+       line-height: 65px;
+       margin-bottom: 10px;
+   }
+   .banner_img_info p{
+       font-size: 16px;
+       color: #3A3A3A;
+       padding-right: 50px;
+   }
+   .link_btn button{
+       border: 0;
+       outline: 0;
+       padding: 12px 25px;
+       font-size: 16px;
+       color: #fff;
+       background-color: #E6425E;
+       border-radius: 25px;
+       transition: 0.5s ease-in-out;
+       cursor: pointer;
+   }
+   .link_btn button:hover{
+       background-color: #3944F7;
+   }
+   .banner_img{
+       background-image: url(images/Circle\ design.svg);
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: cover;
+   }
+   
+   
+   /* Banner Section Style End Here */
