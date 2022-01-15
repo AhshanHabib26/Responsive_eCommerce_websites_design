@@ -1,0 +1,37 @@
+/***************************
+***** Common CSS Style *****
+****************************  */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    margin: 0 auto;
+    width: 96%;
+    max-width: 1120px;
+}
+li{ 
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.brand_logo_section,
+.product_review_section,
+.featured_products,
+.newsletter_sec,
+.footer_section {
+    margin-top: 80px;
+}
+.color_txt{
+    color: #E6425E;
+    animation: sliding 3s ease 1s infinite alternate-reverse;
+}
+@keyframes sliding {
+    0% {color: #4f58fa;};
+    25% {color: #3A3A3A;};
+    50% {color: #E6425E;}
+    75% { color: #18191F;}
+    100% {color: #E6425E;}
+}
